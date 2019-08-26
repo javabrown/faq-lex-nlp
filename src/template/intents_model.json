@@ -1,0 +1,27 @@
+{
+  "confirmationPrompt": {
+    "maxAttempts": 2,
+    "messages": [
+      {
+        "content": "Does this sound okay?",
+        "contentType": "PlainText"
+      }
+    ]
+  },
+  "name": "iCWFAQIntents",
+  "rejectionStatement": {
+    "messages": [
+      {
+        "content": "Okay, I will get back to you on this",
+        "contentType": "PlainText"
+      }
+    ]
+  },
+  "sampleUtterances": [],
+  "slots": [],
+  "fulfillmentActivity": {
+    "type": "ReturnIntent"
+  },
+  "description": "Intent to order a bouquet of flowers for pick up"
+}
+

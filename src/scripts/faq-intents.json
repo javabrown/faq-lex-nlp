@@ -1,0 +1,54 @@
+{
+    "confirmationPrompt": {
+        "maxAttempts": 2,
+        "messages": [
+            {
+                "content": "Okay, your {FlowerTypeCli} will be ready for pickup by {PickupTime} on {PickupDate}.  Does this sound okay?",
+                "contentType": "PlainText"
+            }
+        ]
+    },
+    "name": "iCWFAQIntents",
+    "rejectionStatement": {
+        "messages": [
+            {
+                "content": "Okay, I will not place your order.",
+                "contentType": "PlainText"
+            }
+        ]
+    },
+    "sampleUtterances": [
+        "What are the valid {Documents} to apply a {Loan}",
+        "What is {website} url of {ICW}"
+    ],
+    "slots": [
+        {
+            "name": "Loan",
+            "slotType": "iCWFAQSlotTypes",
+            "slotTypeVersion": "$LATEST",
+            "slotConstraint": "Optional"
+        },
+        {
+            "name": "Document",
+            "slotType": "iCWFAQSlotTypes",
+            "slotTypeVersion": "$LATEST",
+            "slotConstraint": "Optional"
+        },
+        {
+            "name": "website",
+            "slotType": "iCWFAQSlotTypes",
+            "slotTypeVersion": "$LATEST",
+            "slotConstraint": "Optional"
+        },
+        {
+            "name": "ICW",
+            "slotType": "iCWFAQSlotTypes",
+            "slotTypeVersion": "$LATEST",
+            "slotConstraint": "Optional"
+        }
+    ],
+    "fulfillmentActivity": {
+        "type": "ReturnIntent"
+    },
+    "description": "Intent to order a bouquet of flowers for pick up"
+}

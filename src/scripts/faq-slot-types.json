@@ -1,0 +1,24 @@
+{
+    "enumerationValues": [
+        {
+            "value": "Loan"
+        },
+        {
+            "value": "Document"
+        },
+        {
+            "value": "website"
+        },
+        {
+            "value": "ICW"
+        },
+        {
+            "value": "CreditRequirement"
+        },
+        {
+            "value": "Borrow"
+        }
+    ],
+    "name": "iCWFAQSlotTypes",
+    "description": "Keywords"
+}
